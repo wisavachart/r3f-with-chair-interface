@@ -1,0 +1,61 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  font-family: monospace;
+}
+
+body {
+  margin: 0;
+}
+
+.conficgurator {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  position: fixed;
+  color: white;
+  right: 24px;
+  width: 320px;
+  bottom: 25vh;
+  padding: 16px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.con_section_title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.con_section_value {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.color_container {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content: flex-start;
+}
+.colorValue {
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.item_label {
+  font-size: 12px;
+  color: #acacac;
+}
+
+.item_label.active {
+  color: aqua;
+}
